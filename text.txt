@@ -1,0 +1,11 @@
+window.location.href
+
+COLOR PALLETE
+--amaranth-purple: rgb(182, 23, 63);
+--blush: #db5872ff;
+--light-coral: #ed7986ff;
+--salmon-pink: #ff9999ff;
+--sunset:  #f4ce90ff;
+--asparagus: #729834ff;
+--asparagus-2: #7d9e32ff;
+--yellow-green: #a1c349ff;

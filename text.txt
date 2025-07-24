@@ -9,3 +9,6 @@ COLOR PALLETE
 --asparagus: #729834ff;
 --asparagus-2: #7d9e32ff;
 --yellow-green: #a1c349ff;
+
+
+neispravni kredencijali (ne sifra ili username)

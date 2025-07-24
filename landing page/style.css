@@ -9,11 +9,11 @@
 }
 
 body {
-  background-color: #fff4e7;
+  background-color: #fff7ed;
 }
 
 .header {
-  background-color: #fff4e7;
+  background-color: #fff7ed;
   padding: 0.7rem 15rem;
   display: flex;
   justify-content: space-between;
@@ -56,6 +56,15 @@ body {
 }
 
 .info p:hover {
+  color: rgb(152, 9, 45);
+}
+
+.info a {
+  text-decoration: none;
+  color: rgb(182, 23, 63);
+}
+
+.info a:hover {
   color: rgb(152, 9, 45);
 }
 
@@ -157,10 +166,11 @@ body {
 }
 
 .main {
-  height: 600px;
+  height: 540px;
   width: 100%;
   display: flex;
-  /* background-image: url(/assets/Tiramisu.jpeg); */
+  justify-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(255, 177, 177);
@@ -168,5 +178,84 @@ body {
 
 .main h1 {
   color: white;
+  font-weight: 500;
+  font-size: 60px;
   font-family: "Playfair Display", serif;
+}
+
+.headline {
+  width: 50%;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  color: rgb(182, 23, 63);
+  font-size: 13.5px;
+}
+
+@keyframes headline-animation {
+  0% {
+    color: rgb(182, 23, 63);
+  }
+  25% {
+    color: #db5872ff;
+  }
+  50% {
+    color: #ed7986ff;
+  }
+  75% {
+    color: #ff9999ff;
+  }
+  100% {
+    color: rgb(182, 23, 63);
+  }
+}
+
+.headline h1:hover {
+  animation-name: headline-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform: 2s ease-in-out 3s;
+  animation-play-state: running;
+  transition: transform 2s ease-in-out;
+  animation-direction: forwards;
+}
+
+.headline {
+  position: relative;
+  padding: 20px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background 0.3s ease;
+}
+
+.strawberry {
+  position: absolute;
+  width: 40px;
+  animation: pop 0.7s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes pop {
+  0% {
+    transform: translateY(0) scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-80px) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120px) scale(0.9);
+    opacity: 0;
+  }
 }

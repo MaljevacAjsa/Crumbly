@@ -1,11 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montez&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montez&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Yesteryear&display=swap");
+
 * {
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   margin: 0;
-  background: #f7f9fc;
+  background: #fff7ed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,80 +16,82 @@ body {
 }
 
 .container {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background: #fff7ed;
+  padding: 1rem;
+  border-radius: 10px;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
+  border: 1.5px solid rgb(182, 23, 63);
 }
 
 h2 {
   text-align: center;
-  color: #333;
-  margin-bottom: 1.5rem;
+  color: rgb(182, 23, 63);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 label {
   display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   font-weight: 500;
-  color: #444;
+  color: rgb(182, 23, 63);
+  font-size: 0.85rem;
 }
 
 input,
 select {
   width: 100%;
-  padding: 0.6rem;
+  padding: 0.4rem;
   margin-bottom: 0.2rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
+  border: 1.5px solid rgb(182, 23, 63);
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 
 .error-text {
-  font-size: 0.85rem;
-  color: red;
-  margin-bottom: 0.8rem;
-  min-height: 1rem;
+  font-size: 0.75rem;
+  color: rgb(182, 23, 63);
+  margin-bottom: 0.6rem;
+  min-height: 0.9rem;
 }
 
 .checkbox-label {
   display: flex;
   align-items: center;
-  font-size: 0.95rem;
-  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.7rem;
 }
 
 button {
   width: 100%;
-  padding: 0.8rem;
-  background-color: #007bff;
+  padding: 0.6rem;
+  background-color: rgb(182, 23, 63);
   color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #024fa2;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background-color: rgb(162, 18, 54);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .welcome {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: rgb(94, 126, 43);
 }
 
 .logout-btn {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   background-color: rgb(182, 23, 63);
 }
 
 .logout-btn:hover {
   background-color: rgb(158, 19, 54);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }

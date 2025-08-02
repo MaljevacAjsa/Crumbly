@@ -12,17 +12,9 @@ body {
   background-size: cover;
 }
 
-.main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 85vh;
-}
-
 .container {
   background: #fffcf7;
-  padding: 0.95rem;
+  padding: 1.1rem;
   border-radius: 10px;
   width: 100%;
   max-width: 350px;
@@ -39,44 +31,24 @@ h2 {
 
 label {
   display: block;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.2rem;
   font-weight: 500;
   color: rgb(182, 23, 63);
   font-size: 0.85rem;
 }
 
-input,
-select {
+input {
   width: 100%;
-  padding: 0.35rem;
-  margin-bottom: 0.15rem;
+  padding: 0.4rem;
+  margin-bottom: 1.5rem;
   border: 2px solid rgb(182, 23, 63);
   border-radius: 6px;
   font-size: 0.9rem;
 }
 
-.error-text {
-  font-size: 0.75rem;
-  color: rgb(182, 23, 63);
-  margin-bottom: 0.6rem;
-  min-height: 0.9rem;
-}
-
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  font-size: 0.85rem;
-  width: 100%;
-  margin-bottom: 0.6rem;
-}
-
-.checkbox-label input {
-  width: 50%;
-}
-
 button {
   width: 100%;
-  padding: 0.55rem;
+  padding: 0.6rem;
   background-color: rgb(182, 23, 63);
   color: white;
   border: none;
@@ -120,51 +92,27 @@ button:hover {
   color: rgb(182, 23, 63);
   font-size: 0.9rem;
 }
-.header * {
-  margin: 0;
-  padding: 0;
-}
+
 .sign-in * {
   text-decoration: none;
   margin-left: 5px;
   display: block;
   font-weight: 500;
+
   color: rgb(23, 92, 182);
   font-size: 1rem;
 }
-/* Standard CSS properties like width and border do not affect the native checkbox appearance
-  because checkboxes are rendered by the browser's UI, not styled by CSS directly.
-  To customize the checkbox, you need to hide the default and use a custom element. */
-
-/* Example: Custom styled checkbox */
-.checkbox-label input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  border: 2px solid rgb(182, 23, 63);
-  border-radius: 4px;
-  background: #fff;
-  cursor: pointer;
-  margin-left: 10px;
-  position: relative;
+.header * {
+  padding: 0;
+  margin: 0;
 }
 
-.checkbox-label input[type="checkbox"]:checked {
-  background-color: rgb(182, 23, 63);
-}
-
-.checkbox-label input[type="checkbox"]:checked::after {
-  content: "";
-  position: absolute;
-  left: 4px;
-  top: -2px;
-  width: 6px;
-  height: 12px;
-  border: solid #fff;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-  display: block;
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 .header {
@@ -189,10 +137,14 @@ button:hover {
 }
 
 .logo a {
-  text-decoration: none;
   font-family: "Yesteryear", cursive;
   font-size: 2.3rem;
   color: rgb(182, 23, 63);
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: (143, 10, 43);
 }
 
 .info {

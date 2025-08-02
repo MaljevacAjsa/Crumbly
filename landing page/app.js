@@ -2,7 +2,7 @@ const hoverBox = document.querySelector(".headline");
 const container = document.querySelector(".strawberry-container");
 
 hoverBox.addEventListener("mouseenter", () => {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 7; i++) {
     const strawberry = document.createElement("img");
     strawberry.src = "../assets/Untitled-1.png";
     strawberry.classList.add("strawberry");

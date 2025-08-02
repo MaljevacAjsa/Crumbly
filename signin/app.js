@@ -1,20 +1,10 @@
-const form = document.getElementById("loginForm");
-
+const form = document.getElementById("signInForm");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
-const confirmPassword = document.getElementById("confirmPassword");
-const gender = document.getElementById("gender");
-const terms = document.getElementById("terms");
 
 const emailError = document.getElementById("emailError");
 const passwordError = document.getElementById("passwordError");
-const confirmPasswordError = document.getElementById("confirmPasswordError");
-const genderError = document.getElementById("genderError");
-const termsError = document.getElementById("termsError");
 
-const formContainer = document.getElementById("formContainer");
-const welcomeContainer = document.getElementById("welcomeContainer");
-const welcomeMessage = document.getElementById("welcomeMessage");
 function validateEmail() {
   const value = email.value.trim();
   const valid = value.includes("@");
@@ -40,28 +30,6 @@ function validateConfirmPassword() {
   confirmPasswordError.textContent = valid ? "" : "Passwords dont match.";
   console.log(valid);
   return valid;
-}
-
-function validateGender() {
-  const valid = gender.value !== "";
-  genderError.textContent = valid ? "" : "Choose gender.";
-  console.log(valid);
-  return valid;
-}
-
-function validateTerms() {
-  const valid = terms.checked;
-  termsError.textContent = valid
-    ? ""
-    : "You must accpet the terms and conditions.";
-  console.log(valid);
-  return valid;
-}
-
-function showWelcome(userEmail) {
-  formContainer.style.display = "none";
-  welcomeContainer.style.display = "block";
-  welcomeMessage.textContent = `Hey, ${userEmail}! Welcome back.`;
 }
 
 function logout() {
@@ -94,6 +62,3 @@ form.addEventListener("submit", (e) => {
 
 email.addEventListener("input", validateEmail);
 password.addEventListener("input", validatePassword);
-confirmPassword.addEventListener("input", validateConfirmPassword);
-gender.addEventListener("change", validateGender);
-terms.addEventListener("change", validateTerms);

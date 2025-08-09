@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="/landing page/index.html">Crumbly</a>
+        <img src="/assets/Untitled-1.png" alt="Logo" />
+      </div>
+    </div>
+    <div class="line"></div>
+
+    <div class="recipe-page">
+      <h1 id="recipe-title"></h1>
+      <img id="recipe-image" alt="Recipe Image" />
+      <div class="recipe-details">
+        <h2>Ingredients</h2>
+        <ul id="ingredients"></ul>
+        <h2>Instructions</h2>
+        <ol id="instructions"></ol>
+      </div>
+    </div>
+
+    <script>
+      // Uzimamo ID recepta iz URL-a
+      const params = new URLSearchParams(window.location.search);
+      const recipeId = params.get("id");
+
+      // Učitavamo JSON bazu
+      fetch("recipes.json")
+        .then((res) => res.json())
+        .then((data) => {
+          const recipe = data.find((r) => r.id === recipeId);
+          if (!recipe) return;
+
+          document.getElementById("recipe-title").textContent = recipe.title;
+          document.getElementById("recipe-image").src = recipe.image;
+
+          const ingredientsList = document.getElementById("ingredients");
+          recipe.ingredients.forEach((item) => {
+            const li = document.createElement("li");
+            li.textContent = item;
+            ingredientsList.appendChild(li);
+          });
+
+          const instructionsList = document.getElementById("instructions");
+          recipe.instructions.forEach((step) => {
+            const li = document.createElement("li");
+            li.textContent = step;
+            instructionsList.appendChild(li);
+          });
+        });
+    </script>
+  </body>
+</html>

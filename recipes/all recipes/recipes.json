@@ -2,36 +2,81 @@
   {
     "id": "oreo_cupcakes",
     "title": "Cookies & Cream Oreo Cupcakes",
-    "image": "/assets/meals/download.jpeg",
+    "image": "/assets/meals/Screenshot 2025-08-09 231751.png",
     "ingredients": [
-      "1 1/2 cups flour",
-      "1 cup sugar",
-      "2 eggs",
-      "1/2 cup butter",
-      "10 crushed Oreo cookies"
+      "Cupcakes",
+      "1 and 3/4 cups (207g) cake flour (spooned & leveled)",
+      "3/4 teaspoon baking powder",
+      "1/4 teaspoon baking soda",
+      "1/4 teaspoon salt",
+      "1/2 cup (8 Tbsp; 113g) unsalted butter, softened to room temperature",
+      "1 cup (200g) granulated sugar",
+      "3 large egg whites, at room temperature",
+      "2 teaspoons pure vanilla extract",
+      "1/2 cup (120g) full-fat sour cream, at room temperature",
+      "1/2 cup (120g/ml) whole milk, at room temperature",
+      "1 and 1/2 cups (135g) chopped Oreos (about 12 Oreos)",
+      "Vanilla Buttercream",
+
+      "1/2 cup (8 Tbsp; 113g) unsalted butter, softened to room temperature",
+      "1 and 3/4 cups (210g) confectioners’ sugar",
+      "2 Tablespoons (30g/ml) heavy cream, whole milk, or half-and-half*",
+      "1 teaspoon pure vanilla extract",
+      "salt, to taste",
+      "Chocolate Buttercream",
+      "1/2 cup (8 Tbsp; 113g) unsalted butter, softened to room temperature",
+      "1 and 3/4 cups (210g) confectioners’ sugar",
+      "1/4 cup (21g) unsweetened natural cocoa powder",
+      "2 Tablespoons (30ml) heavy cream, whole milk, or half-and-half*",
+
+      "1 teaspoon pure vanilla extract",
+      "salt, to taste",
+      "optional: crushed Oreos, for garnish"
     ],
     "instructions": [
-      "Preheat oven to 180°C (350°F).",
-      "Mix flour, sugar, and butter until combined.",
-      "Add eggs and crushed Oreos.",
-      "Pour into cupcake molds and bake for 20 minutes."
+      "Preheat the oven to 350°F (177°C). Line a 12-cup muffin pan with cupcake liners. Line a second pan (or bake in batches) with 4 or 5 liners—this recipe makes about 16–17 cupcakes. Set aside.",
+      "Make the cupcakes: Whisk the cake flour, baking powder, baking soda, and salt together. Set aside.",
+      "Using a handheld or stand mixer fitted with a paddle attachment, beat the butter and sugar on medium-high speed until creamed together, about 3 minutes. (Here’s a helpful tutorial if you need guidance on how to cream butter and sugar.) Scrape down the sides and bottom of the bowl with a silicone spatula as needed. Add the egg whites and beat on high speed until smooth and combined, about 2 minutes. Scrape down the sides of the bowl as needed. Add the sour cream and vanilla, and beat on medium-high speed until combined, about 1 minute.",
+      "Spoon the batter into the liners—fill only 2/3 full to avoid spilling over the sides.",
+      "Bake for 19–22 minutes, or until a toothpick inserted in the center comes out clean. Cool the cupcakes in the pan set on a cooling rack for 20 minutes, then remove them from the pan and return to the rack to cool completely before frosting.",
+      "Make the vanilla buttercream: With a handheld or stand mixer fitted with a paddle attachment, beat the butter on medium speed until creamy, about 2 minutes. Add the confectioners’ sugar, heavy cream, and vanilla. Beat on low speed for 30 seconds, then increase to medium-high speed and beat for 2 full minutes. Add 1/4 cup more confectioners’ sugar if frosting is too thin or another Tablespoon of cream if frosting is too thick. Taste. Add a pinch of salt if frosting is too sweet. Transfer the vanilla frosting to another bowl; no need to clean the mixing bowl—you’ll make the chocolate buttercream in it in the next step.",
+      "Make the chocolate buttercream: With a handheld or stand mixer fitted with a paddle attachment, beat the butter on medium speed until creamy, about 2 minutes. Add the confectioners’ sugar, cocoa powder, heavy cream, and vanilla. Beat on low speed for 30 seconds, then increase to high speed and beat for 1 full minute. Add 1/4 cup more confectioners’ sugar or cocoa powder if frosting is too thin or another Tablespoon of cream if frosting is too thick. Taste. Add a pinch of salt if frosting is too sweet.",
+      "Frost the cupcakes: You can swipe the frostings on with an icing knife or use a piping tip. I used Ateco 829 in some of these pictured cupcakes and Ateco 849 in others! Here is how to fill a piping bag to swirl the two frostings together: Place your preferred piping tip inside the bag (with the end snipped off so that the tip fits through). Place the bag inside a very tall cup or glass and fold the excess bag over the edges of the cup. Spoon the vanilla frosting into one side of the bag, leaving a little space on the other side. Spoon the chocolate frosting into the other side of the bag. Don’t worry, it doesn’t have to be perfectly neat. Remove the bag from the cup and push the frosting down to the tip, squeezing out any air bubbles as needed. Twist the top of the bag and proceed with piping.  Garnish with crushed Oreo crumbs, if desired.",
+      "Cover leftover cupcakes tightly and store in the refrigerator for up to 3 days. I recommend a cupcake carrier for storing and transporting decorated cupcakes."
     ]
   },
   {
     "id": "blueberry_peach_pie",
     "title": "Blueberry Peach Pie",
-    "image": "/assets/meals/download.jpeg",
+    "image": "/assets/meals/Screenshot 2025-08-09 232011.png",
     "ingredients": [
-      "2 cups blueberries",
-      "2 cups sliced peaches",
-      "1 cup sugar",
-      "1 pie crust"
+      "All-Butter Pie Crust (recipe makes 2 crusts, 1 for bottom and 1 for top)",
+      "6 cups (around 1050g) peeled chopped peaches, cut into 1-inch chunks",
+      "1 and 1/2 cups (210g) fresh blueberries",
+      "3/4 cup (150g) granulated sugar",
+      "3 Tablespoons (23g) cornstarch",
+      "2 Tablespoons (25g) all-purpose flour",
+      "3/4 teaspoon ground cinnamon",
+      "1/8 teaspoon ground allspice",
+      "1 Tablespoon (15ml) fresh lemon juice",
+      "1 Tablespoon (14g) cold unsalted butter, cut into small cubes",
+      "egg wash: 1 large egg beaten with 1 Tablespoon (15ml) milk",
+      "optional: coarse sugar for sprinkling on crust"
     ],
     "instructions": [
-      "Preheat oven to 190°C (375°F).",
-      "Mix blueberries, peaches, and sugar.",
-      "Pour into pie crust and cover with top crust.",
-      "Bake for 45 minutes until golden."
+      "The crust: Prepare the pie crust recipe through step 5.",
+      "Prep the peaches: Peel the peaches and then cut into 1-inch chunks. You need about 6 cups of peach chunks, which is around 950g.",
+      "In a large bowl, stir the peach chunks, blueberries, granulated sugar, cornstarch, flour, cinnamon, allspice, and lemon juice together until thoroughly combined. Set filling in the refrigerator while you roll out the dough. No need to cover it.",
+
+      "Adjust the oven rack to the lower third position and preheat to 425°F (218°C). Place a baking sheet on the bottom oven rack to catch any bubbling-over juices.",
+      "Roll out the chilled pie dough: On a floured work surface, roll out one of the discs of chilled dough (keep the other one in the refrigerator). Turn the dough about a quarter turn after every few rolls until you have a circle 12 inches in diameter. Carefully place the dough into a 9-inch round pie dish. Tuck it in with your fingers, making sure it is smooth.",
+      "Use a slotted spoon to transfer the filling into the crust. Reserve the juice in the bowl for the next step. Refrigerate pie, uncovered, as you reduce the juice in the next step.",
+      "Pour the leftover juice into a small saucepan. Cook over low heat, stirring, until juice has slightly reduced and thickened into an applesauce-like consistency, about 1–2 minutes. Cool for 5 minutes, then pour over the filling. Do your best to gently toss together. The reduction will harden and thicken as a result of mixing with the cold fruit—this is normal. Dot the pieces of cold butter on top of the filling. Place the pie in the refrigerator while you roll out the top crust.",
+      "Arrange the lattice: Remove the other disc of chilled pie dough from the refrigerator. Roll the dough into a circle that is around 12–15 inches diameter. Using a pastry wheel, sharp knife, or pizza cutter, cut strips of dough; in the pictured pie, I cut 10 1.25-inch-wide strips. Carefully thread the strips over and under one another, pulling back strips as necessary to weave. (Here’s a lattice pie crust tutorial if you need visuals.) To seal the edges, use a small paring knife or kitchen shears to trim excess dough that extends more than 1.5–2 inches over the edge. Fold bottom pie dough edges back over and press/meld into the lattice edges to form a smooth, neat rim. Flute or crimp the pie crust edges with a fork.",
+      "Lightly brush the top of the pie crust with the egg wash. Sprinkle the top with coarse sugar, if using.",
+      "Bake the pie at 425°F for 20 minutes; then, keeping the pie in the oven, reduce the oven temperature down to 375° (190°C). Place a pie crust shield (see Note for homemade shield) on the edges to prevent them from over-browning. Continue baking the pie until the filling’s juices are bubbling everywhere, including in the center, 45–50 more minutes. This sounds like a long time, but under-baking the pie means a soupy, paste-like filling. If you want to be precise, the internal temperature of the filling taken with an instant-read thermometer should be around 200°F (93°C) when done. Tip: If needed towards the end of bake time, remove the pie crust shield and tent a large piece of foil over the entire pie if the top looks like it’s getting too brown.",
+      "Remove pie from the oven, place on a cooling rack, and cool for at least 5 hours before slicing and serving. Filling will be too juicy if the pie is warm when you slice it.",
+      "Cover leftovers tightly and store in the refrigerator for up to 5 days."
     ]
   }
 ]

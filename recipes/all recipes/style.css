@@ -256,3 +256,42 @@ body {
 .login-dropdown:hover {
   color: rgb(152, 9, 45);
 }
+
+.recipe-page {
+  margin: 40px auto;
+  width: 70%;
+  background-color: #fff7ed;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-page h1 {
+  text-align: center;
+  color: rgb(182, 23, 63);
+  margin-bottom: 20px;
+}
+
+.recipe-page img {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.recipe-details {
+  margin-top: 30px;
+}
+
+.recipe-details h2 {
+  color: rgb(182, 23, 63);
+  margin-top: 20px;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+  margin-left: 20px;
+  color: rgb(90, 30, 45);
+  font-size: 1rem;
+  line-height: 1.6;
+}

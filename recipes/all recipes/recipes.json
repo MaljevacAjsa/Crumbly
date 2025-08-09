@@ -1,0 +1,37 @@
+[
+  {
+    "id": "oreo_cupcakes",
+    "title": "Cookies & Cream Oreo Cupcakes",
+    "image": "/assets/meals/download.jpeg",
+    "ingredients": [
+      "1 1/2 cups flour",
+      "1 cup sugar",
+      "2 eggs",
+      "1/2 cup butter",
+      "10 crushed Oreo cookies"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C (350°F).",
+      "Mix flour, sugar, and butter until combined.",
+      "Add eggs and crushed Oreos.",
+      "Pour into cupcake molds and bake for 20 minutes."
+    ]
+  },
+  {
+    "id": "blueberry_peach_pie",
+    "title": "Blueberry Peach Pie",
+    "image": "/assets/meals/download.jpeg",
+    "ingredients": [
+      "2 cups blueberries",
+      "2 cups sliced peaches",
+      "1 cup sugar",
+      "1 pie crust"
+    ],
+    "instructions": [
+      "Preheat oven to 190°C (375°F).",
+      "Mix blueberries, peaches, and sugar.",
+      "Pour into pie crust and cover with top crust.",
+      "Bake for 45 minutes until golden."
+    ]
+  }
+]

@@ -27,11 +27,9 @@
     </div>
 
     <script>
-      // Uzimamo ID recepta iz URL-a
       const params = new URLSearchParams(window.location.search);
       const recipeId = params.get("id");
 
-      // Učitavamo JSON bazu
       fetch("recipes.json")
         .then((res) => res.json())
         .then((data) => {

@@ -1,9 +1,7 @@
-// Selektuj sve kartice
 const cards = document.querySelectorAll(".card");
 
 cards.forEach((card, index) => {
   card.addEventListener("click", () => {
-    // Dodeljujemo ID recepta (isti redosled kao u JSON-u)
     const recipeIds = [
       "oreo_cupcakes",
       "blueberry_peach_pie",
@@ -16,7 +14,6 @@ cards.forEach((card, index) => {
 
     const recipeId = recipeIds[index];
 
-    // Prebacujemo ID recepta u URL
     window.location.href = `recipe.html?id=${recipeId}`;
   });
 });

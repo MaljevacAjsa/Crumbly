@@ -297,21 +297,124 @@ body {
 }
 
 #addRecipeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: white;
 }
 
 #addRecipeBtn {
   color: rgb(182, 23, 63);
   border: 1px solid rgb(182, 23, 63);
   border-radius: 5px;
-  padding: 4px 11px;
+  padding: 6px 14px;
   font-weight: 500;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   background-color: white;
   cursor: pointer;
-  transition: color 0.3s;
+  transition: all 0.3s;
 }
 
 #addRecipeBtn:hover {
   color: white;
-  background-color: rgb(143, 10, 43);
+  background-color: #db5872;
+  border: 1px solid white;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #fff7ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 370px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content h2 {
+  color: rgb(182, 23, 63);
+  margin-bottom: 15px;
+  text-align: center;
+}
+.modal-content form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.modal-content form input {
+  padding: 0 1rem;
+  border: 2px solid rgb(182, 23, 63);
+  border-radius: 10px;
+  background-color: white;
+  height: 40px;
+  width: 230px;
+}
+
+.modal-content form textarea {
+  padding: 0.7rem 1rem;
+  border: 2px solid rgb(182, 23, 63);
+  border-radius: 10px;
+  background-color: white;
+  height: 80px;
+  width: 230px;
+}
+
+#saveRecipe {
+  background-color: rgb(182, 23, 63);
+  border: 1px solid rgb(182, 23, 63);
+  border-radius: 5px;
+  padding: 4px 11px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.modal-content button.close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(182, 23, 63);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

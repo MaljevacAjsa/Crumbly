@@ -41,14 +41,30 @@
             <a href="http://127.0.0.1:5500/register/index.html">Register</a>
           </div>
         </div>
-        <div>
-          <button id="addRecipeBtn">Add a recipe</button>
-          <div style="display: none" id="modal">
-            <div id="addRecipeDiv">
-              <input type="text" placeholder="Name of the dish" />
-              <input type="text" placeholder="Ingridients" />
-              <input type="text" placeholder="Instructions" />
-            </div>
+        <button id="addRecipeBtn">Add a recipe</button>
+        <div id="modal">
+          <div class="modal-content">
+            <button class="close">&times;</button>
+            <h2>Add New Recipe</h2>
+            <form>
+              <input
+                id="recipeName"
+                type="text"
+                placeholder="Recipe name"
+                required
+              />
+              <textarea
+                id="ingredients"
+                placeholder="Ingredients"
+                required
+              ></textarea>
+              <textarea
+                id="instructions"
+                placeholder="Instructions"
+                required
+              ></textarea>
+              <button type="submit" id="saveRecipe">Save</button>
+            </form>
           </div>
         </div>
       </div>

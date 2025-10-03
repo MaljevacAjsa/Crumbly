@@ -10,6 +10,10 @@
 
 body {
   background-color: #fff7ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header {
@@ -47,6 +51,7 @@ body {
 .info {
   display: flex;
   gap: 2rem;
+  width: 50%;
 }
 
 .info p {
@@ -306,4 +311,56 @@ body {
 
 .login-dropdown:hover {
   color: rgb(152, 9, 45);
+}
+
+.desserts {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 480vh;
+  gap: 50px;
+}
+
+.meal_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 270px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+.meal_div button {
+  margin-top: 70px;
+}
+
+.meal_div img {
+  height: 130px;
+  width: 130px;
+}
+
+button {
+  width: 100%;
+  padding: 0.55rem;
+  background-color: rgb(182, 23, 63);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#logout {
+  width: 100px;
+}
+
+button:hover {
+  background-color: rgb(162, 18, 54);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }

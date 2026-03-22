@@ -12,3 +12,13 @@ COLOR PALLETE
 
 
 neispravni kredencijali (ne sifra ili username)
+
+
+1. sajt mora da ima najmanje 5 navigacionih stavki (pocetna,recepti,[izabrati neki],kontakt, login)
+2. kod kontakt stranice mora da ima forma za kontakt sa validacijom
+3. podaci se vuku sa apija [vec odradjeno]
+4. figma dizajn stranica
+5. custom logo kreiran u photoshop-u [vec odradjeno]
+6. pre odbrane se salje link do hostovanog sajta
+
+MINIMUM KAVLIFIKACIJE
